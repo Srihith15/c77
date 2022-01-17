@@ -1,0 +1,14 @@
+var fname="Srihith";
+var lname=" Madduri";
+var fullname=fname.concat(lname);
+console.log(fullname);
+document.getElementById("ex1").innerHTML=fullname;
+var fruits=["strawberries"," blueberries"," kiwis"," mangos"];
+fruits.push(" oranges");
+fruits.pop();
+fruits.unshift(" oranges");
+document.getElementById("ex2").innerHTML=fruits[2];
+var numbers=["123","1","907097"];
+numbers.sort();
+var min_number=Math.min.apply(Math, numbers);
+document.getElementById("ex3").innerHTML=min_number;
